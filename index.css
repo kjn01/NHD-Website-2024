@@ -114,4 +114,7 @@
 
 .CardTable {
     display:inline-block;
+    padding-top: 0rem;
+    width: 100%;
+    display: absolute;
 }
