@@ -102,3 +102,16 @@
       margin-bottom: 20px;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 0px;
+        border-left-width: 0px; /* Remove left border for smaller screens */
+    }
+}
+
+.CardTable {
+    display:inline-block;
+}
